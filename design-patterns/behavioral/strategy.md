@@ -1,10 +1,24 @@
 # Strategy
 
+Ao invez de IF, ou flag para executar algo, usar um objeto que possa ser trocado. 
+
 ## Meu Resumo
 
 O que é: É mudar o comportamento de forma dinamico apartir de intreface e injeçâo de dependencia. No caso se resume a **PASSAR UMA FUNÇÂO como uma classe que segue uma interface A SER EXECUTADA COMO PARAMETRO De uma função ou classe**.
 
-Ex: Se eu quero fazer um processamento de uma lsita, e esse prcessamento muda a depender do dasdos, entao, ao invez de ter um if (ou flag) para sinalizar qual processamento fazer, eu posso passar esse procesasmento como uma arrow function. Isso permite muito mais flexibildiade de mudar as coisa.
+Ex: Se eu quero fazer um processamento de uma lista, e esse prcessamento muda a depender do dasdos, entao, ao invez de ter um if (ou flag) para sinalizar qual processamento fazer, eu posso passar esse procesasmento como uma arrow function. Isso permite muito mais flexibildiade de mudar as coisa.
+
+## Refactoring Guru
+
+**O que é**
+
+O Strategy é um padrão de projeto comportamental que permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
+
+**Quando usar**
++ Utilize o padrão Strategy quando você quer usar diferentes variantes de um algoritmo dentro de um objeto e ser capaz de trocar de um algoritmo para outro durante a execução.
++ Utilize o Strategy quando você tem muitas classes parecidas que somente diferem na forma que elas executam algum comportamento.
++ Utilize o padrão para isolar a lógica do negócio de uma classe dos detalhes de implementação de algoritmos que podem não ser tão importantes no contexto da lógica.
++ Utilize o padrão quando sua classe tem um operador condicional muito grande que troca entre diferentes variantes do mesmo algoritmo.
 
 ## GitHub - kamranahmedse
 
