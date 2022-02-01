@@ -1,4 +1,6 @@
-# design-patterns-study - RESUMO
+# Estudos de Design Patterns
+
+**O que é**: O que são Design Patterns? Design Patterns ou padrões de projetos são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Não se trata de um framework ou um código pronto, mas de uma definição de alto nível de como um problema comum pode ser solucionado
 
 ## Links
 
@@ -12,7 +14,7 @@ SOLID
 CLEAN CODE
 + https://medium.com/desenvolvendo-com-paixao/2-clean-code-boas-pr%C3%A1ticas-para-escrever-c%C3%B3digos-impec%C3%A1veis-361997b3c8b5
 
-## Design Patters
+## Design Patterns
 
 Criado pelo GoF do livro “Design Patterns: Elements of Reusable Object-Oriented Software”
 
