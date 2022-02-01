@@ -52,11 +52,13 @@ Criado pelo GoF do livro “Design Patterns: Elements of Reusable Object-Oriente
 
 **Chain of Responsibility** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/chain-of-responsibility.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/chain-of-resposibility.md)
 
- **Refactoring Guru:** Permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou passa para o próximo handler da corrente. 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/chain-of-responsibility.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou passa para o próximo handler da corrente. 
+
+**Meu Resumo: **
 
 **Command** 
 
