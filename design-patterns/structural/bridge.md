@@ -1,9 +1,6 @@
 # Bridge
 
-Ao invez de usar múltipla heraça e ter n-heranaças, use composição e sub-classe para gerar as n combiaçoes.
-
-Brige é: uma classe princiapl e 1 ou mais inteface tais que a classe principla tem por composiçao essas interfaces. Voce faz a variabildiade por: 
-+ Filhas da classe princiapl XXXX Implementaçoes da interface
+Ao invéz de usar múltipla herança e ter n-heranaças, use composição e sub-classe para gerar as n combiaçoes. Brige é: uma classe principal e 1 ou mais inteface tais que a classe principla. tem por composiçao essas interfaces. Voce faz a variabildiade por: Filhas da classe princiapl e Implementaçoes da interface.
 
 ## Links
 

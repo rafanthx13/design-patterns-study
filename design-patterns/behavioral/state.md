@@ -1,6 +1,6 @@
 # State
 
-É você usar composiçâo apara gerar States, e assim, alterar bastante o objeto base  a depdender do estado que ele está dentroo dele.
+É você usar para gerar States, e usál-lo como composição na classe principla, assim, cada estado vai vir com uma śerie de métodos implementados que vai mudar o comportamento da classe base a depender de qual `State` ela tem durante a execução.
 
 ## Links
 

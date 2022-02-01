@@ -1,6 +1,6 @@
 # Strategy
 
-Ao invez de IF, ou flag para executar algo, usar um objeto que possa ser trocado. 
+Ao invéz de IF, ou flag para executar algo, usar um objeto que possa ser trocado. 
 
 ## Meu Resumo
 

@@ -1,6 +1,6 @@
 # Abstract Factory
 
-Obj: produza famílias de objetos relacionados sem ter que especificar suas classes concretas.
+Obj: produzir famílias de objetos relacionados sem ter que especificar suas classes concretas.
 
 Resolve: Quando queremos trabalhar com famílias de objetos, qusse cque como temas para objetos. Ex: Imagine que voe vai prepar um conjunto para siar, há o conjunto apra: jogar fudebol, casamento, trabahlo e etc.c. Para ca da um deles há os mesmsos itens: calçado, camisa, roupa de baixo bermuda/calça e etcc. O ABstractory Factory permite voce gernciar tudos isos, um conjunto de objetos para cada uma desses temas
 

@@ -1,6 +1,6 @@
 # Mediator
 
-É como um controlador de tráfego aéreo, voce centraliza a comunicação entre os objetos num lugar só, e gerancia o tráfego.
+É como um controlador de tráfego aéreo, voce centraliza a comunicação entre os objetos num lugar só, e gerencia o tráfego.
 
 ## Links
 

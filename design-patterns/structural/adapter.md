@@ -1,12 +1,15 @@
 # Adapter
 
+É você adaptar uma classe, ou seja, usar interface de *A e fazer com que *B execute algo igual a um **A real.
+
 ## Meu Resumo
 
-Para que serve: Como o nome diz, é a pra que uma classe passe a ter o meso comportamento do que outra.
+Para que serve: Como o nome diz, é a pra que uma classe passe a ter o mesmo comportamento do que outra.
 
-Como fazer: Primeiro, todas as classe devem ter 'implemnts intreface'. COm isso voce cria uma classeAdpater que recebe a Classe $A no contrutor e implementa a classe $B. Assim, no metodo implmentado de $B usa o método intreno da classe $A que recebeu.
+Como fazer: Primeiro, todas as classe devem ter 'implemnts interface'. COm isso voce cria uma classeAdpater que recebe a Classe $A no contrutor e implementa a classe $B. Assim, no metodo implmentado de $B usa o método intreno da classe $A que recebeu.
 
-Exemplode classe adapter:
+Exemplo de classe adapter:
+
 ````
 // Aqui, $B é Lion (Uma interface que tem o método 'roar') e $A é WildDog. Usamos o dapater pois $A nâo tem o método 'roar' mas queremos que execute o seu 'bark' como se fosse o 'roar
 class WildDogAdapter implements Lion

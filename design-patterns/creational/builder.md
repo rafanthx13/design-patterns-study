@@ -1,5 +1,7 @@
 # Template
 
+Uma forma mais fácil de criar objetos ultra customizados, sem precisar fazer sobreposiçâo de métodos.
+
 ## Links
 
 https://refactoring.guru/pt-br/design-patterns/builder

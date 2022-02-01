@@ -1,5 +1,7 @@
 # Prototype
 
+É uma forma eficiente de clonar um objeto, deixando esse método jaá dentro deele e não clonando de fora.
+
 ## Links
 
 https://refactoring.guru/pt-br/design-patterns/prototype

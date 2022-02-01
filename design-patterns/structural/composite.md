@@ -1,6 +1,6 @@
 # Composite
 
-Basicmaente é usar uma interface para implementar uma árvore, e fazer operações por recursão
+Basicamente é usar uma interface para implementar uma árvore, e fazer operações por recursão
 
 ## Links
 

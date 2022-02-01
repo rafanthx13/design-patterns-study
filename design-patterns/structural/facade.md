@@ -1,6 +1,6 @@
 # Facade
 
-Em suma, é uam forma de abrigar vários métodos que costumam se executados juntos em uma única chamada de método
+Em suma, é uma forma de abrigar vários métodos que costumam ser executados juntos em uma única chamada de método.
 
 ## Links
 

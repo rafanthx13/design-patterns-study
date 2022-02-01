@@ -1,5 +1,6 @@
 # Factory Method
 
+É um método estático de criaçâo de objeto que permite seus filhos criarem outros objetos desde que repeitando uma interface
 
 ## Links
 

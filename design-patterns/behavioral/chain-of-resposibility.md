@@ -1,9 +1,11 @@
 # Chain Of Responsibility
 
+Encadeamento em tempo de execução de Handler. Semelhante ao Decorator mas caapz de interromper o processo
+
 ## Links
 
-https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility
-https://github.com/kamranahmedse/design-patterns-for-humans#-chain-of-responsibility
++ https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility
++ https://github.com/kamranahmedse/design-patterns-for-humans#-chain-of-responsibility
 
 ## Meu Resumo
 

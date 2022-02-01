@@ -1,8 +1,6 @@
 # Decorator
 
-Uma espécie de boneca russa, que facilita a vida. AO invés de usar herança para resolver um problema, usa-se composição.
-
-Voce coloca um obj dentro de outro (na sua criaçao) e entao, num momento, faz a recursao para executar cada um dos objetos, como tirar todas as bonecas russas. OU seja, envolve recursão na hora de executar algo no final.
+Uma espécie de boneca russa, que facilita a vida. Ao invés de usar herança para resolver um problema, usa-se composição. Você coloca um objeto dentro de outro (na sua criaçao) e entao, num momento, faz a recursao para executar cada um dos objetos, como tirar todas as bonecas russas. Ou seja, envolve recursão na hora de executar algo no final.
 
 ## Links
 

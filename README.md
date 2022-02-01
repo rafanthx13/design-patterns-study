@@ -58,179 +58,239 @@ Criado pelo GoF do livro “Design Patterns: Elements of Reusable Object-Oriente
 
 **Refactoring Guru:** Permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou passa para o próximo handler da corrente. 
 
-**Meu Resumo: **
+**Meu Resumo:** Encadeamento em tempo de execução de Handler. Semelhante ao Decorator mas caapz de interromper o processo
+
 
 **Command** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/command.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/command.md)
 
- **Refactoring Guru:** Transforma o pedido em um objeto independente que contém toda a informação sobre o pedido. Essa Transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte operações que não podem ser feitas. 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/command.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Transforma o pedido em um objeto independente que contém toda a informação sobre o pedido. Essa Transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte operações que não podem ser feitas. 
+
+**Meu Resumo:**É como uma transação do SQL, em que é possível dar commit e até rollback, capaz de fazer `undo`.
 
 **Iterator** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/iterator.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/iterator.md)
 
- **Refactoring Guru:** Permite que você percorra elementos de uma coleção sem expor as representações estruturais deles (lista, pilha, árvore, etc.) 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/iterator.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Permite que você percorra elementos de uma coleção sem expor as representações estruturais deles (lista, pilha, árvore, etc.) 
+
+**Meu Resumo:** Serve Percorrer estruturas complexas como árvores
 
 **Mediator** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/mediator.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/mediator.md)
 
- **Refactoring Guru:** Permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador. 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/mediator.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador. 
+
+**Meu Resumo:** É como um controlador de tráfego aéreo, voce centraliza a comunicação entre os objetos num lugar só, e gerencia o tráfego.
 
 **Memento** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/memento.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/memento.md)
 
- **Refactoring Guru:** Permite que você salve e restaure o estado anterior de um objeto sem revelar os detalhes de sua implementação. 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/memento.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Permite que você salve e restaure o estado anterior de um objeto sem revelar os detalhes de sua implementação. 
+
+**Meu Resumo:** Salvar um estado
 
 **Observer** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/observer.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/observer.md)
 
- **Refactoring Guru:** Permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando. 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/observer.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Permite que você defina um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando. 
+
+**Meu Resumo:** Modelo de Publisher-Subscriber, eu recebo a notificaçâo de que um estado mudou desde que eu me inscreva nele
 
 **State** 
 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/state.md)
+
+
  ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/state.png) 
 
- **Refactoring Guru:** Permite que um objeto altere seu comportamento quando seu estado interno muda. Parece como se o objeto mudasse de classe. 
+**Refactoring Guru:** Permite que um objeto altere seu comportamento quando seu estado interno muda. Parece como se o objeto mudasse de classe. 
 
- **Meu Resumo: **
+**Meu Resumo:** É você usar para gerar States, e usál-lo como composição na classe principla, assim, cada estado vai vir com uma śerie de métodos implementados que vai mudar o comportamento da classe base a depender de qual `State` ela tem durante a execução.
+
 
 **Strategy** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/strategy.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/strategy.md)
 
- **Refactoring Guru:** Permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/strategy.png) 
+
+**Refactoring Guru:** Permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis. 
+
+**Meu Resumo:** Ao invéz de IF, ou flag para executar algo, usar um objeto que possa ser trocado.
 
 **Template Method** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/template-method.png) 
 
- **Refactoring Guru:** Define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura. 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/template-method.md)
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/template-method.png) 
+
+**Refactoring Guru:** Define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura. 
+
+**Meu Resumo:** Escever metade de um método e o restante deixar para usar o que vinher de parâmetro ou de classe filha.
 
 **Visitor** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/visitor.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/behavioral/visitor.md)
 
- **Refactoring Guru:** Permite que você separe algoritmos dos objetos nos quais eles operam. 
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/visitor.png) 
 
- **Meu Resumo: **
+**Refactoring Guru:** Permite que você separe algoritmos dos objetos nos quais eles operam. 
+
+**Meu Resumo:** É adicionar um comportamento a um objeto sem modificá-lo. Fazemos isso colocamos ele dentro de outra classe, o Visitor, que pode acessá-lo e fazer outras coisas com ele.
 
 ## Structural Design Patterns
 
 **Adapter** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/adapter.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/adapter.md)
 
- **Refactoring Guru:** Permite a colaboração de objetos de interfaces incompatíveis. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/adapter.png) 
+
+**Refactoring Guru:** Permite a colaboração de objetos de interfaces incompatíveis. 
+
+**Meu Resumo:** É você adaptar uma classe, ou seja, usar interface de *A e fazer com que *B execute algo igual a um **A real.
 
 **Bridge** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/bridge.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/bridge.md)
 
- **Refactoring Guru:** Permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/bridge.png) 
+
+**Refactoring Guru:** Permite que você divida uma classe grande ou um conjunto de classes intimamente ligadas em duas hierarquias separadas—abstração e implementação—que podem ser desenvolvidas independentemente umas das outras. 
+
+**Meu Resumo:** Ao invéz de usar múltipla herança e ter n-heranaças, use composição e sub-classe para gerar as n combiaçoes. Brige é: uma classe principal e 1 ou mais inteface tais que a classe principla. tem por composiçao essas interfaces. Voce faz a variabildiade por: Filhas da classe princiapl e Implementaçoes da interface.
 
 **Composite** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/composite.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/composite.md)
 
- **Refactoring Guru:** Permite que você componha objetos em estrutura de árvores e então trabalhe com essas estruturas como se fossem objetos individuais. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/composite.png) 
+
+**Refactoring Guru:** Permite que você componha objetos em estrutura de árvores e então trabalhe com essas estruturas como se fossem objetos individuais. 
+
+**Meu Resumo:** Basicamente é usar uma interface para implementar uma árvore, e fazer operações por recursão.
 
 **Decorator** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/decorator.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/decorator.md)
 
- **Refactoring Guru:** Permite que você adicione novos comportamentos a objetos colocando eles dentro de um envoltório (wrapper) de objetos que contém os comportamentos. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/decorator.png) 
+
+**Refactoring Guru:** Permite que você adicione novos comportamentos a objetos colocando eles dentro de um envoltório (wrapper) de objetos que contém os comportamentos. 
+
+**Meu Resumo:** Uma espécie de boneca russa, que facilita a vida. Ao invés de usar herança para resolver um problema, usa-se composição. Você coloca um objeto dentro de outro (na sua criaçao) e entao, num momento, faz a recursao para executar cada um dos objetos, como tirar todas as bonecas russas. Ou seja, envolve recursão na hora de executar algo no final.
+
 
 **Facade** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/facade.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/facade.md)
 
- **Refactoring Guru:** Fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer outro conjunto complexo de classes. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/facade.png) 
+
+**Refactoring Guru:** Fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer outro conjunto complexo de classes. 
+
+**Meu Resumo:** Em suma, é uma forma de abrigar vários métodos que costumam ser executados juntos em uma única chamada de método.
 
 **Flyweight** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/flyweight.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/flyweight.md)
 
- **Refactoring Guru:** Permite que você coloque mais objetos na quantidade disponível de RAM ao compartilhar partes do estado entre múltiplos objetos ao invés de manter todos os dados em cada objeto. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/flyweight.png) 
+
+**Refactoring Guru:** Permite que você coloque mais objetos na quantidade disponível de RAM ao compartilhar partes do estado entre múltiplos objetos ao invés de manter todos os dados em cada objeto. 
+
+**Meu Resumo:** Fazer o cache de um dado meio qu constante mas que é compartilhado por vários objetos, e por isso, faz gastar muita memória.
 
 **Proxy** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/proxy.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/structural/proxy.md)
 
- **Refactoring Guru:** Permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/proxy.png) 
+
+**Refactoring Guru:** Permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original. 
+
+**Meu Resumo:** É criar uma classe que intercepta mensagens e lida melhor com ela, deixando a clase principal mais folgada (algo como lazy programming).
 
 ## Creational Design Patterns
 
 **Factory Method** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/factory-method.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/creational/factory-method.md)
 
- **Refactoring Guru:** Fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/factory-method.png) 
+
+**Refactoring Guru:** Fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados. 
+
+**Meu Resumo:** É um método estático de criaçâo de objeto que permite seus filhos criarem outros objetos desde que repeitando uma interface.
 
 **Abstract Factory** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/abstract-factory.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/creational/abstract-factory.md)
 
- **Refactoring Guru:** Permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/abstract-factory.png) 
+
+**Refactoring Guru:** Permite que você produza famílias de objetos relacionados sem ter que especificar suas classes concretas. 
+
+**Meu Resumo:** Obj: produzairfamílias de objetos relacionados sem ter que especificar suas classes concretas. Resolve: Quando queremos trabalhar com famílias de objetos, qusse cque como temas para objetos. Ex: Imagine que voe vai prepar um conjunto para siar, há o conjunto apra: jogar fudebol, casamento, trabahlo e etc.c. Para ca da um deles há os mesmsos itens: calçado, camisa, roupa de baixo bermuda/calça e etcc. O ABstractory Factory permite voce gernciar tudos isos, um conjunto de objetos para cada uma desses temas
 
 **Builder** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/builder.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/creational/builder.md)
 
- **Refactoring Guru:** Permite construir objetos complexos passo a passo. O padrão permite produzir diferentes tipos e representações de um objeto usando o mesmo código de construção. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/builder.png) 
+
+**Refactoring Guru:** Permite construir objetos complexos passo a passo. O padrão permite produzir diferentes tipos e representações de um objeto usando o mesmo código de construção. 
+
+**Meu Resumo:** Uma forma mais fácil de criar objetos ultra customizados, sem precisar fazer sobreposiçâo de métodos.
 
 **Prototype** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/prototype.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/creational/prototype.md)
 
- **Refactoring Guru:** Permite que você copie objetos existentes sem fazer seu código ficar dependente de suas classes. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/prototype.png) 
+
+**Refactoring Guru:** Permite que você copie objetos existentes sem fazer seu código ficar dependente de suas classes. 
+
+**Meu Resumo:** É uma forma eficiente de clonar um objeto, deixando esse método já dentro deele e não clonando de fora.
 
 **Singleton** 
 
- ![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/singleton.png) 
+[Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/creational/singleton.md)
 
- **Refactoring Guru:** Permite a você garantir que uma classe tem apenas uma instância, enquanto provê um ponto de acesso global para esta instância. 
 
- **Meu Resumo: **
+![](https://github.com/rafanthx13/design-patterns-study/blob/main/imgs/all-design-patterns/singleton.png) 
+
+**Refactoring Guru:** Permite a você garantir que uma classe tem apenas uma instância, enquanto provê um ponto de acesso global para esta instância. 
+
+**Meu Resumo:** Criar um objeto único, centralizador e garantir que só exista uma únca instância durante a execução
 
 ## SOLID Principle
 

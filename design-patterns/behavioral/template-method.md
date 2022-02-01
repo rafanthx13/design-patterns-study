@@ -1,6 +1,6 @@
 # Template Method
 
-Escever metade de um método e o restante deixar para usar o que vinher de parâmetro
+Escever metade de um método e o restante deixar para usar o que vinher de parâmetro ou de classe filha.
 
 ## Links
 

@@ -1,5 +1,7 @@
 # Command
 
+É como uma transação do SQL, em que é possível dar commit e até rollback, capaz de fazer `undo`.
+
 ## Links
 
 https://refactoring.guru/pt-br/design-patterns/command

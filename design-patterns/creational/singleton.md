@@ -12,7 +12,7 @@ https://github.com/kamranahmedse/design-patterns-for-humans#-singleton
 **O que é**
 O Singleton é um padrão de projeto criacional que permite a você garantir que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
 
-**O que reoslve**
+**O que resolve**
 + Garantir que uma classe tenha apenas uma única instância. 
   - Ou seja, se voce dar um `new SIngelton` nao deve retornar um novo objeto, deve retornar um já existente
 + Fornece um ponto de acesso global para aquela instância

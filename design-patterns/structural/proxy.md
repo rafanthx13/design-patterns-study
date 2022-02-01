@@ -1,6 +1,6 @@
 # Proxy
 
-É criar uma classe que intercepta  mensagens e lida melhor com ela, deixando a clase principal mais folgada.
+É criar uma classe que intercepta mensagens e lida melhor com ela, deixando a clase principal mais folgada (algo como lazy programming).
 
 ## Links
 

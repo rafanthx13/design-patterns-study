@@ -1,6 +1,6 @@
 # Visitor
 
-É adicionar um comportamento a um obj sem modificá-lo. Famoze isso colocamos ele dentro de outra classe, o Visitor, que pode acesslao efazer outras coisas com ele.
+É adicionar um comportamento a um objeto sem modificá-lo. Fazemos isso colocamos ele dentro de outra classe, o Visitor, que pode acessá-lo e fazer outras coisas com ele.
 
 ## Links
 
