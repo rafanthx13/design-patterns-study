@@ -2,6 +2,12 @@
 
 É uma forma eficiente de clonar um objeto, deixando esse método jaá dentro deele e não clonando de fora.
 
+Sua principal utilidade é evitar custos: com inicializaça, processamento de objeto. AO invez de ter que criar um objeto custoso toda hora, você pode só clonar o  que você custou criar.
+
+É como eu utilizo o `copy` em dataframes. Quero salvar algo e evitar de ter que criart do zero algo custoso.
+
+Como fazr: ttenha uma interface com clone e permita que a classe concreta implemente o método com clone
+
 ## Links
 
 https://refactoring.guru/pt-br/design-patterns/prototype
@@ -56,6 +62,7 @@ package refactoring_guru.prototype.example.shapes;
 import java.util.Objects;
 
 public abstract class Shape {
+
     public int x;
     public int y;
     public String color;

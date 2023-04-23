@@ -89,7 +89,7 @@ class Sorter
 And it can be used as
 
 ```php
-// Nesse exemplo, mudamos a forma queordenamos a lista apenas mudando o objeto a ser passado dentro do 'SORTER' sem precisa de nenhum método
+// Nesse exemplo, mudamos a forma que ordenamos a lista apenas mudando o objeto a ser passado dentro do 'SORTER' sem precisa de nenhum método
 $dataset = [1, 5, 4, 3, 2, 8];
 
 $sorter = new Sorter(new BubbleSortStrategy());
@@ -97,4 +97,7 @@ $sorter->sort($dataset); // Output : Sorting using bubble sort
 
 $sorter = new Sorter(new QuickSortStrategy());
 $sorter->sort($dataset); // Output : Sorting using quick sort
+
+
 ```
+

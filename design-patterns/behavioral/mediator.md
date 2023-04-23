@@ -2,6 +2,8 @@
 
 É como um controlador de tráfego aéreo, voce centraliza a comunicação entre os objetos num lugar só, e gerencia o tráfego.
 
+EM bt pode ser chamado também de 'Mediador'
+
 ## Links
 
 https://refactoring.guru/pt-br/design-patterns/mediator
@@ -9,6 +11,40 @@ https://github.com/kamranahmedse/design-patterns-for-humans#-mediator
 https://pt.wikipedia.org/wiki/Mediator
 
 ## Meu Resumo
+
+## Otávio Miranda
+
+https://github.com/luizomf/design-patterns-typescript/blob/master/src/structural/proxy/README.md
+
+
+![](https://github.com/luizomf/design-patterns-typescript/blob/master/src/behavioural/mediator/diagramas/Mediator.png)
+
+**Intençâo**
+Define um objeto que encapsula como um conjunto de objetos interage. O mediator promove o acoplamento fraco ao evitar que os objetos se refiram explicitamente uns aos outros, permitindo que você varie suas interações
+
+EM suma: **CENTRALZIAR UMA COMUNICAÇÂO ENTRE VÁRIOS OBJETOS, QUE, SEM O MEDIATOR, ESTARIA MUITO ACOMPLADOS ENTRE SI**
+
+Centrar toda a comunicaçao em um unico objeto. Isos é algo que agenteas vezes faz sem precisar saber que se chama Meadiator.
+
+**Objetivo**
++ VIsa encapsular a comuniaçao direta entre objteos
++ Desacopla objetos que estariam intimamente ligadas.
+  - Assim,ao invez de um obj conehcer muitoas outros, vai conhcer apenas o mediator e fara o tratamento entre todos eles
+  - E nenhum dos objetos conehce outro, só o mediator. 
++ Centraliza toda a comunicaçao em apenas um unico objeto
+
+**Quando aplicar**
+
+Use o Mediator quando:
+
++  você quer diminuir ou extinguir o acoplamento direto entre as classes que poderiam estar diretamente acopladas
++ você quer simplificar comunicações de muitos-entre-muitos para comunicações um-para-muitos
+
+**Consequencias**
+
+Define um objeto que encapsula como um conjunto de objetos interage. O mediator promove o acoplamento fraco ao evitar que os objetos se refiram explicitamente uns aos outros, permitindo que você varie suas interações
+
+
 
 ## Wikipedia
 
