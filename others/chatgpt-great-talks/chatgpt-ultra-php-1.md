@@ -1,6 +1,6 @@
 Minha Conversa CHatGPT
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -23,7 +23,7 @@ Vantagens de fazer TDD mencionadas no texto:
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -38,7 +38,7 @@ ChatGPT
 Segue abaixo um exemplo de classe de Log em PHP que verifica o ambiente em que está e gera logs somente quando o ambiente for staging ou development:
 
 ```php
-phpCopy codeclass Logger {
+class Logger {
     private $environment;
 
     public function __construct($environment) {
@@ -65,7 +65,7 @@ Explicando o código:
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -92,7 +92,7 @@ O PHP possui vários métodos para fazer log, sendo os mais comuns:
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -107,7 +107,7 @@ ChatGPT
 Abaixo segue um exemplo de como uma classe que segue o padrão Proxy pode ser utilizada para salvar logs de consultas ao banco de dados sem alterar a classe original:
 
 ```php
-phpCopy code<?php
+<?php
 
 interface Database {
     public function executeQuery($query);
@@ -150,7 +150,7 @@ Neste exemplo, a classe `DatabaseExecutor` é a classe original responsável por
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -165,7 +165,7 @@ ChatGPT
 Segue abaixo a classe Proxy modificada para atender aos requisitos mencionados:
 
 ```php
-phpCopy code<?php
+<?php
 
 class ProxyBd implements IBd
 {
@@ -218,7 +218,7 @@ Explicação:
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -233,7 +233,7 @@ ChatGPT
 Segue o código da classe DatabaseExecutor com as alterações solicitadas:
 
 ```php
-phpCopy codeclass DatabaseExecutor implements DatabaseExecutorInterface
+class DatabaseExecutor implements DatabaseExecutorInterface
 {
     private $db;
 
@@ -289,7 +289,7 @@ Agora, sempre que a função `executeQuery` for chamada, o nome da função que 
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -306,7 +306,7 @@ Para ler o arquivo benchmark.csv e enviar um e-mail de alerta quando for detecta
 Segue abaixo um exemplo de como a classe poderia ser implementada:
 
 ```php
-phpCopy codeclass BenchmarkChecker
+class BenchmarkChecker
 {
     private $filePath;
 
@@ -358,7 +358,7 @@ phpCopy codeclass BenchmarkChecker
 Para utilizar a classe, basta instanciá-la passando o caminho para o arquivo benchmark.csv e chamar o método `check()`. Por exemplo:
 
 ```php
-phpCopy code$checker = new BenchmarkChecker('/caminho/para/benchmark.csv');
+$checker = new BenchmarkChecker('/caminho/para/benchmark.csv');
 $checker->check();
 ```
 
@@ -366,7 +366,7 @@ Dessa forma, a classe lerá o arquivo benchmark.csv e enviará um e-mail de aler
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -381,7 +381,7 @@ ChatGPT
 Segue abaixo a alteração no método `saveException` da classe `DatabaseExecutor` para salvar a `Exception` em um arquivo CSV:
 
 ```php
-phpCopy codeclass DatabaseExecutor implements DatabaseInterface
+class DatabaseExecutor implements DatabaseInterface
 {
     //...
 
@@ -409,7 +409,7 @@ O arquivo CSV será criado com as seguintes colunas: Data, Mensagem da Exception
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -426,7 +426,7 @@ $bd é uma variável que armazena a conexão com o banco de dados e é utilizada
 Para acessar um banco de dados MySQL em PHP, você pode utilizar a extensão mysqli ou PDO. Abaixo segue um exemplo de como conectar e executar uma consulta utilizando a extensão mysqli:
 
 ```php
-phpCopy code$servername = "localhost";
+$servername = "localhost";
 $username = "seu_usuario";
 $password = "sua_senha";
 $dbname = "seu_banco_de_dados";
@@ -460,7 +460,7 @@ Nesse exemplo, `$bd` é a variável que armazena a conexão com o banco de dados
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -476,7 +476,7 @@ No exemplo anterior, é importante fechar a conexão com o banco de dados após 
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -498,7 +498,7 @@ Algumas funcionalidades adicionais que podem ser implementadas no Proxy para for
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -515,7 +515,7 @@ Para implementar o controle de cache de consulta, podemos criar uma classe Cache
 O primeiro passo é criar a classe Cache:
 
 ```php
-phpCopy codeclass Cache {
+class Cache {
     private static $instance;
     private $cache = array();
 
@@ -544,7 +544,7 @@ phpCopy codeclass Cache {
 Agora podemos alterar a classe DatabaseExecutor para utilizar o cache:
 
 ```php
-phpCopy codeclass DatabaseExecutor {
+class DatabaseExecutor {
     private $connection;
     private $cache;
 
@@ -601,7 +601,7 @@ Agora quando executarmos uma consulta, ela será armazenada em cache e as próxi
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -618,7 +618,7 @@ Para modificar o Cache para armazenar 5 consultas ao invés de uma única, podem
 Aqui está o código atualizado do Cache:
 
 ```php
-phpCopy codeclass Cache {
+class Cache {
   private static $queries = [];
 
   public static function get($query) {
@@ -643,7 +643,7 @@ Com esta atualização, podemos armazenar até 5 consultas diferentes em cache.
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -666,7 +666,7 @@ Algumas outras funcionalidades que podem ser adicionadas ao Proxy para torná-lo
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -685,7 +685,7 @@ Para salvar o log do usuário que tentou realizar SQL Injection, podemos utiliza
 Segue um exemplo de implementação:
 
 ```php
-phpCopy codeclass DatabaseExecutor {
+class DatabaseExecutor {
     private $pdo;
     private $cache;
     private $queryLog = [];
@@ -779,7 +779,7 @@ class QueryCache {
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -794,7 +794,7 @@ ChatGPT
 Para criar um dicionário de dados de um banco MySQL em PHP, podemos utilizar a classe PDO e a consulta SQL "SHOW COLUMNS FROM table_name". O seguinte método recebe como parâmetro o nome do schema do banco de dados e retorna um array com as informações de todas as tabelas desse schema:
 
 ```php
-phpCopy codefunction createDictionary($schema) {
+function createDictionary($schema) {
     $dsn = 'mysql:host=localhost;dbname=' . $schema;
     $user = 'username';
     $password = 'password';
@@ -820,7 +820,7 @@ O método se conecta ao banco de dados especificado no parâmetro $schema, busca
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -835,7 +835,7 @@ ChatGPT
 Segue um exemplo de implementação de um método em PHP que recebe o nome de um schema do banco MySQL e gera um dicionário de dados, e salva em três formatos diferentes: HTML, CSV e JSON.
 
 ```php
-phpCopy code<?php
+<?php
 
 // Configurações do banco de dados
 $db_host = 'localhost';
@@ -923,7 +923,7 @@ if ($data_dictionary) {
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -938,7 +938,7 @@ ChatGPT
 Segue abaixo a continuação da implementação do método para criar um dicionário de dados de um banco MySQL em PHP:
 
 ```php
-phpCopy code<?php
+<?php
 
 class MysqlDataDictionary
 {
@@ -1062,7 +1062,7 @@ fclose($fp
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1089,7 +1089,7 @@ Existem muitos design patterns que podem ser utilizados para refatorar código, 
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1111,7 +1111,7 @@ Em resumo, o padrão Strategy usa composição para permitir que uma classe tenh
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1133,7 +1133,7 @@ Dessa forma, você pode adicionar novos filtros dinamicamente sem precisar modif
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1155,7 +1155,7 @@ Em resumo, enquanto o Decorator adiciona responsabilidades adicionais a um objet
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1173,7 +1173,7 @@ O padrão Chain of Responsibility é projetado para permitir que você passe sol
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1191,7 +1191,7 @@ Ou ainda, dependendo do caso, o Design Pattern State também pode ser utilizado 
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1211,7 +1211,7 @@ Portanto, o padrão State é mais adequado quando um objeto tem um comportamento
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1235,7 +1235,7 @@ Ao usar o padrão Interpreter, é possível criar uma estrutura de expressões q
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1251,7 +1251,7 @@ Bad smell, também conhecido como "cheiro ruim de código", é um termo utilizad
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1267,7 +1267,7 @@ Complexidade desnecessária é um dos chamados "bad smells" (maus cheiros) no c�
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1291,7 +1291,7 @@ Para detectar falhas no sistema com mais rapidez, é importante adotar boas prá
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1316,7 +1316,7 @@ Essas métricas podem ser monitoradas em tempo real usando ferramentas de monito
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1343,7 +1343,7 @@ O Datadog é amplamente utilizado por equipes de desenvolvimento e operações p
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1359,7 +1359,7 @@ O Datadog tem uma versão gratuita que permite monitorar até 5 hosts. No entant
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1382,7 +1382,7 @@ Essas são apenas algumas das alternativas open source e gratuitas ao Datadog di
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1400,7 +1400,7 @@ A escolha entre essas ferramentas depende das necessidades específicas do proje
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1436,7 +1436,7 @@ Esses são apenas alguns dos métodos disponíveis para manipulação de arrays 
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1470,7 +1470,7 @@ A maioria dos métodos para manipulação de arrays em PHP funcionam em PHP 5. A
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1496,7 +1496,7 @@ ChatGPT
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1515,7 +1515,7 @@ Por exemplo, uma das novidades do PHP 8 é o recurso de argumentos nomeados, que
 Por exemplo, suponha que você tenha o seguinte método no PHP 8:
 
 ```
-phpCopy codefunction exemplo($nome, $idade, $cidade = 'São Paulo') {
+function exemplo($nome, $idade, $cidade = 'São Paulo') {
     echo "Meu nome é $nome, tenho $idade anos e moro em $cidade";
 }
 ```
@@ -1523,7 +1523,7 @@ phpCopy codefunction exemplo($nome, $idade, $cidade = 'São Paulo') {
 Você pode emular esse método no PHP 5 da seguinte forma:
 
 ```
-phpCopy codefunction exemplo($args) {
+function exemplo($args) {
     extract($args);
     if (!isset($cidade)) {
         $cidade = 'São Paulo';
@@ -1535,14 +1535,14 @@ phpCopy codefunction exemplo($args) {
 Em seguida, você pode chamar esse método usando um array associativo como argumento:
 
 ```
-phpCopy codeexemplo(array('nome' => 'João', 'idade' => 30, 'cidade' => 'Rio de Janeiro'));
+exemplo(array('nome' => 'João', 'idade' => 30, 'cidade' => 'Rio de Janeiro'));
 ```
 
 Isso produzirá a mesma saída que o método original no PHP 8. Note que essa é apenas uma forma de emular uma funcionalidade específica do PHP 8, e pode não ser a melhor opção em todos os casos. Em geral, é recomendável atualizar para a versão mais recente do PHP sempre que possível para aproveitar as novas funcionalidades e melhorias de desempenho.
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1558,7 +1558,7 @@ Existem algumas formas de percorrer um array em PHP, cada uma com sua eficiênci
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1574,7 +1574,7 @@ This passage highlights the importance of being humble and not letting our ego g
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1590,7 +1590,7 @@ O trecho menciona que é comum querer mostrar a habilidade e talento em programa
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1606,7 +1606,7 @@ Lidar com desafios técnicos no código pode ser uma oportunidade para demonstra
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1622,7 +1622,7 @@ O texto fala sobre a importância de compartilhar conhecimentos na área de prog
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1644,7 +1644,7 @@ O texto oferece várias ações práticas que podem ser úteis para desenvolvedo
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1660,7 +1660,7 @@ The text discusses the challenges of using new programming methodologies and the
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1676,7 +1676,7 @@ O texto trata da complexidade da manutenção de projetos de programação a lon
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
@@ -1692,7 +1692,7 @@ O texto nos alerta sobre a importância de considerar a manutenibilidade do cód
 
 
 
-![img](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAGNmyxZbgxSORWiLyZCOi1cvGoNsM8CKQsTgY803hM8ZOA%3Ds96-c&w=96&q=75)
+**RAFAEL ASSIS**
 
 
 
