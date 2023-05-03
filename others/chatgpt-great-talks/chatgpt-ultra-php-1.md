@@ -1,4 +1,4 @@
-Minha Conversa CHatGPT
+Minha Conversa **ChatGPT**
 
 **RAFAEL ASSIS**
 
@@ -8,7 +8,7 @@ Liste os pontos que falam da vantagem de se fazer TDD no trecho abaixo:  TDD sig
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -31,7 +31,7 @@ Crie uma classe de Log em PHP. Ela deve gerar logs a depender do ambiente em que
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -73,7 +73,7 @@ Liste os métodos de log do PHP
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -100,7 +100,7 @@ Crie uma classe que siga o design patterns Proxy para salvar logs quando executa
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -158,7 +158,7 @@ Altere a classe Proxy anterior para fazer as seguintes coisas: Calcular o benchm
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -226,7 +226,7 @@ Altere DatabaseExecutor para que, ao executar a consulta, seja também passado o
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -297,7 +297,7 @@ Agora crie uma classe PHP que lê o benchmark.csv e envie um email de alerta qua
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -374,7 +374,7 @@ Altere o método saveException de DatabaseExecutor para que seja salvo também a
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -417,7 +417,7 @@ O que é $bd mostrados nos códigos anteriores? dê exemplo de sua implementaç�
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -468,7 +468,7 @@ Por que fechou a conexão no exemplo anterior?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -484,7 +484,7 @@ Quais funcionalidade a mais podem ser adicionadas ao Proxy para que ele registre
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -506,7 +506,7 @@ Implemente o Controle de cache de consulta. Ao executar um Select, a consulta se
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -609,7 +609,7 @@ Modifique o Cache para armazenar 5 consultas ao invés de uma única
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -651,7 +651,7 @@ O que mais pode ser adicionado para o Proxy ficar mais robusto e completo?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -674,7 +674,7 @@ Implemente um filtro de consulta para  para evitar SQL Injection e salve o log d
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -787,7 +787,7 @@ Crie um método em PHP que, dado um schema, crie um dicionário de dados de um b
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -828,7 +828,7 @@ Salve em HTML, CSV e JSON
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -931,7 +931,7 @@ Continue
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1070,7 +1070,7 @@ Site os design patterns mais usados para refatorar código
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1097,7 +1097,7 @@ Qual a diferença entre Strategy e State?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1119,7 +1119,7 @@ Site um caso onde posso refatorar com o Decorator
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1141,7 +1141,7 @@ Qual a  diferença entre Decorator e Chain Of Responsability
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1163,7 +1163,7 @@ Podemos usar Chain of Responsibility para tratar uma sequencia de if else?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1181,7 +1181,7 @@ O que mais pode se feito apra substituir uma sequencia de if else e deixar o có
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1199,7 +1199,7 @@ Em que caso vale mais usar State do que Strategy?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1219,7 +1219,7 @@ O que é o padrão Interpreter?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1243,7 +1243,7 @@ O que é bad smell?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1259,7 +1259,7 @@ O que seria complexidade desnecessária que você disse anteriormente?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1275,7 +1275,7 @@ Que práticas devem ser utilizadas no código para detectar com mais velocidade 
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1299,7 +1299,7 @@ Dê exemplos de métrica para se monitorar um sistema criado em PHP
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1324,7 +1324,7 @@ Fale mais sobre o Datadog
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1351,7 +1351,7 @@ Datadog é gratuito?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1367,7 +1367,7 @@ Há alguma alternativa ao Datadog que seja grátis e open source?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1390,7 +1390,7 @@ Qual delas é melhor para monitorar um sistema feito em Laravel?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1408,7 +1408,7 @@ liste os principais método de manipular array em php
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1444,7 +1444,7 @@ Liste quais desse métodos funcionam em PHP5
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1478,7 +1478,7 @@ Crie uma tabela em Markdown com 4 colunas: Descrição; PHP; JS; Python e as lin
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1504,7 +1504,7 @@ Como criar métodos utilizados no PHP 8 no PHP 5?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1550,7 +1550,7 @@ Qual a forma mais eficiente de percorre um array em PHP?
 
 
 
-ChatGPT
+**ChatGPT**
 
 2 / 2
 
@@ -1566,7 +1566,7 @@ It happens very often that in front of technical challenges and especially in so
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1582,7 +1582,7 @@ Resuma o trecho a seguii em português:
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1598,7 +1598,7 @@ Resuma o trecho a seguir em portugues:
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1614,7 +1614,7 @@ Resuma o trecho a seguir em português: It happens very often that in front of t
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1630,7 +1630,7 @@ Que ações práticas reais se pode tirar do texto?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1652,7 +1652,7 @@ Resuma o texto a seguir: And this is where it gets complicated. Your code is rea
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1668,7 +1668,7 @@ Resuma o texto a seguir em português: And this is where it gets complicated. Yo
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1684,7 +1684,7 @@ Que açôes práticas dá pra tirar dele?
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
@@ -1700,7 +1700,7 @@ Resuma o Trecho a seguir em português: Limiting PHP to the programming language
 
 
 
-ChatGPT
+**ChatGPT**
 
 
 
