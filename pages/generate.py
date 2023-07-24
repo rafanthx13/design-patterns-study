@@ -1,0 +1,122 @@
+import os
+
+# Lê o arquivo "files.txt"
+with open("files.txt", "r") as file:
+    lines = file.readlines()
+
+# Cria um arquivo HTML para cada linha
+for line in lines:
+    # Remove quebras de linha e espaços extras
+    line = line.strip()
+
+    # Gera o título com a primeira letra maiúscula
+    title = line.capitalize()
+
+    # Cria o conteúdo do arquivo HTML
+    html_content = """<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página com Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        body, html {
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+
+        h1 {
+            font-size: 48px;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        h1:hover {
+            color: midnightblue;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        textarea {
+            width: 80%;
+            height: 200px;
+            resize: none;
+            margin-bottom: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="hover-effect">{title}</h1>
+		 <button onclick="redirectToRandomElement()">Ir para outra página</button>
+        <textarea id="text-area"></textarea>
+        <div id="html-output"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script>
+		var url = "https://raw.githubusercontent.com/rafanthx13/design-patterns-study/main/pages/md-clean/{title}.md";
+        // Função para renderizar o Markdown em HTML
+        function renderMarkdownToHTML(markdownContent) {
+            var htmlOutput = document.getElementById("html-output");
+            var converter = new showdown.Converter();
+            htmlOutput.innerHTML = converter.makeHtml(markdownContent);
+        }
+
+        // Função para carregar o conteúdo Markdown de uma URL
+        function loadMarkdownFromURL(url) {
+            fetch(url)
+                .then(response => response.text())
+                .then(data => renderMarkdownToHTML(data))
+                .catch(error => console.error("Erro ao carregar o conteúdo Markdown:", error));
+        }
+
+        // Função para exibir a div oculta e preencher o textarea ao clicar no h1
+        document.getElementById("hover-effect").addEventListener("click", function() {
+            loadMarkdownFromURL(url);
+        });
+
+	// Função para redirecionar para outra página
+	function redirectToRandomElement() {
+    // Faz uma requisição para o arquivo JSON
+    fetch("https://raw.githubusercontent.com/rafanthx13/design-patterns-study/main/pages/files.json")
+        .then(response => response.json())
+        .then(data => {
+            // Obtém um elemento aleatório da lista
+            var randomIndex = Math.floor(Math.random() * data.arquivos.length);
+            var randomElement = data.arquivos[randomIndex];
+
+            // Redireciona para a página de destino
+            window.location.href = randomElement;
+        })
+        .catch(error => console.error("Erro ao ler o arquivo JSON:", error));
+	}	
+    </script>
+</body>
+</html>
+"""
+    html_content = html_content.replace("{title}", title)
+
+    # Cria um novo arquivo HTML com o título como nome
+    filename = f"{title}.html"
+    with open(filename, "w") as html_file:
+        html_file.write(html_content)
+
+    print(f"Arquivo {filename} criado com sucesso.")
+
+print("Processo concluído.")
+
