@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Renderizar Markdown em HTML</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js" integrity="sha512-LhccdVNGe2QMEfI3x4DVV3ckMRe36TfydKss6mJpdHjNFiV07dFpS2xzeZedptKZrwxfICJpez09iNioiSZ3hA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <input type="text" id="url-input" placeholder="Digite a URL do Markdown">
+    <button onclick="renderMarkdown()">Renderizar</button>
+    <div id="html-output"></div>
+
+    <script>
+        function renderMarkdown() {
+            var url = document.getElementById("url-input").value;
+            var htmlOutput = document.getElementById("html-output");
+
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var markdown = xhr.responseText;
+                    var converter = new showdown.Converter();
+                    var html = converter.makeHtml(markdown);
+                    htmlOutput.innerHTML = html;
+                } else if (xhr.readyState === 4) {
+                    console.error("Erro ao carregar o conteúdo Markdown. Status:", xhr.status);
+                    htmlOutput.innerHTML = "Erro ao carregar o conteúdo Markdown.";
+                }
+            };
+            xhr.open("GET", url, true);
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
+

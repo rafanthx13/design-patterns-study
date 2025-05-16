@@ -1,6 +1,6 @@
 # Adapter
 
-É você adaptar uma classe, ou seja, usar interface de *A e fazer com que *B execute algo igual a um **A real.
+É você adaptar uma classe, ou seja, usar interface de *A e fazer com que *B execute algo igual a um A real.*
 
 ## Meu Resumo
 
@@ -12,6 +12,7 @@ Exemplo de classe adapter:
 
 ````
 // Aqui, $B é Lion (Uma interface que tem o método 'roar') e $A é WildDog. Usamos o dapater pois $A nâo tem o método 'roar' mas queremos que execute o seu 'bark' como se fosse o 'roar
+
 class WildDogAdapter implements Lion
 {
     protected $dog;
@@ -27,6 +28,44 @@ class WildDogAdapter implements Lion
     }
 }
 ````
+
+## Otávio Miranda
+
+**INtenção** Converter a interface de uma classe em outra interface esperada pelos clientes. O Adapter permite que certas classes trabalhem em conjunto, pois de outra forma seria impossível por causa de suas interfaces incompatíveis.
+
+**Estrutura**
+ Pode ser feito por: Composição ou Herança multipla, mas , como nem todas as linguagen permite heranla multipla , vamos ver com adapter
+
+ **Como fzer**
+ + AO invez de depender de alguma cosia direta, eu crieo uma interface, e vou buscar executar algo na interfac (Target)
+ + Depois crio o adaptare, uma classe concreta que implmenta Trget. Dentro de Adpater vai ter, por composiçâo o Adaptee, que é a classe concreta.
+ + O Adapter executa os metodos de target chamando o Adaptee
++ POde parecer que é apenas uma delagaçâo, um proxy, mas a proposta é pensar no futuro.
++ Se o 'Adaptee' for um código de terceiro, se lele pará, masta entâo criar outro Adpter e passar por composiçâo.
++ **É PARA CRIAR ESSA FACILITADE ENTRE TROCAR UM OBJETO DE COMPOSIÇÂO POR OUTRO QUE É A RAZÃO DE SER DO ADAPTER**
+ Parece um proxy mas nâo. 
+
+**Aplicabildiade**
+ Use o padrão Adapter quando:
+
++ você não quiser que seu código dependa diretamente de código de terceiros ou legado
++ você quiser usar um classe existente mas sua interface for incompatível com a interface que seu código ou domínio precisam
++ você quiser reutilizar várias subclasses que não possuam determinada funcionalidade mas for impraticável estender o código de cada uma apenas para adicionar a funcionalidade desejada
+
+**COnsequencaias**
+
+Bom:
+
++ Desacopla o código da aplicação de códigos de terceiros
++ Aplica o SRP ao separar a conversão de interfaces da lógica da aplicação
++ Aplica o OCP ao permitir introduzir novos Adapters para código existente
+Ruim:
+
++ Aumenta a complexidade da aplicação (Por outro lado, qual outra solução deveria ser aplicada?)
+
+
+
+
 
 ## GitHub - kamranahmedse
 

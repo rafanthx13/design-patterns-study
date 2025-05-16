@@ -8,6 +8,9 @@ DESIGN PATTERS
 + https://www.opus-software.com.br/design-patterns/
 + https://github.com/kamranahmedse/design-patterns-for-humans
 
+Aulas excelente de design pattern:
+https://github.com/luizomf/design-patterns-typescript
+
 SOLID
 + https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530
 
@@ -168,7 +171,7 @@ Criado pelo GoF do livro “Design Patterns: Elements of Reusable Object-Oriente
 
 **Refactoring Guru:** Permite a colaboração de objetos de interfaces incompatíveis. 
 
-**Meu Resumo:** É você adaptar uma classe, ou seja, usar interface de *A e fazer com que *B execute algo igual a um **A real.
+**Meu Resumo:** É você adaptar uma classe, ou seja, usar interface de *A e fazer com que *B execute algo igual a um A real.*
 
 **Bridge** 
 
@@ -235,7 +238,9 @@ Criado pelo GoF do livro “Design Patterns: Elements of Reusable Object-Oriente
 
 **Refactoring Guru:** Permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original. 
 
-**Meu Resumo:** É criar uma classe que intercepta mensagens e lida melhor com ela, deixando a clase principal mais folgada (algo como lazy programming).
+**Meu Resumo:** Uma classe que tem o objeot real por composiaçao e implementa a mesma interface. ELa entâo intercepta chamdas podendo fazer algo antes ou dpois da chamada do objeto real. Ela encapsula o objeto real. POde ser usadas para loggin, cacing, acl ou alterar a cahamda ao objj original sem auteralo. É algo parecido com o que é feito na relaçâoe entre controller e services (o controller pode fazer umonte de oisa antes e depois de chamar o servic correspondendete)
+
+É criar uma classe que intercepta mensagens e lida melhor com ela, deixando a clase principal mais folgada (algo como lazy programming).
 
 ## Creational Design Patterns
 
@@ -294,15 +299,19 @@ Criado pelo GoF do livro “Design Patterns: Elements of Reusable Object-Oriente
 
 **Meu Resumo:** Criar um objeto único, centralizador e garantir que só exista uma únca instância durante a execução
 
+OBS: É considerado um anti-pattern pois isso implica em um estado global, algo que deve ser evitado com injeção de dependência
+
 ## SOLID Principle
 
 Esses princípios ajudam o programador a escrever códigos mais limpos, separando responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
 
 **S — Single Responsiblity Principle**
++ [Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/solid/1-single-responsiblity-principle.md)
 +  (Princípio da responsabilidade única)
 + Em suma: evitar um GOdCLass, ou seja, uma classe que faça tudo
 
 **O — Open-Closed Principle**
++ [Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/solid/1-single-responsiblity-principle.md)
 + (Princípio Aberto-Fechado)
 + O que dá de errado se nâo for seguido:
   - Alterar uma classe já existente para adicionar um novo comportamento, corremos um sério risco de introduzir bugs em algo que já estava funcionando.
@@ -312,15 +321,18 @@ Esses princípios ajudam o programador a escrever códigos mais limpos, separand
 + Esse principio é a base do padrao de projeto Strategy
 
 **L — Liskov Substitution Principle**
++ [Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/solid/1-single-responsiblity-principle.md)
 + (Princípio da substituição de Liskov) - Uma classe derivada deve ser substituível por sua classe base.
 + Seguir o LSP nos permite usar o polimorfismo com mais confiança. Podemos chamar nossas classes derivadas referindo-se à sua classe base sem preocupações com resultados inesperados.
 
 **I — Interface Segregation Principle**
++ [Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/solid/1-single-responsiblity-principle.md)
 + (Princípio da Segregação da Interface)
 + Uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar.Esse princípio basicamente diz que é melhor criar interfaces mais específicas ao invés de termos uma única interface genérica
 + Em suma: Nâo crie interface genericas, apenas especificas, é melhor ter 3 intrfaces especificas do que 1 generica
 
 **D — Dependency Inversion Principle**
++ [Link](https://github.com/rafanthx13/design-patterns-study/blob/main/design-patterns/solid/1-single-responsiblity-principle.md)
 + (Princípio da inversão da dependência)
 +  Dependa de abstrações e não de implementações.
 + OBS: Inversão de Dependência não é igual a Injeção de Dependência, fique ciente disso! A Inversão de Dependência é um princípio (Conceito) e a Injeção de Dependência é um padrão de projeto (Design Pattern)
@@ -341,3 +353,26 @@ Esses princípios ajudam o programador a escrever códigos mais limpos, separand
   - Ao invez de `var == 'x'` dê preferencia a chamar um método, isso deixa essa expressão boleana mais intercambeável no código.
 + Evite funçâo com flag
   - Se uma funçâo tem dois comportamentos distintos a depedner de um único valro,  entao é melhor separa em das funções
+
+## Outros
+
+### Dependency Injection
+
+### KISS
+
+### DRY
+
+## Mudança feita pelo GanG
+
+[Link](https://www.informit.com/articles/article.aspx?p=1404056)
+
+So here are some of the changes:
+
++ Interpreter and Flyweight should be moved into a separate category that we referred to as "Other/Compound" since they really are different beasts than the other patterns. Factory Method would be generalized to Factory.
++ The categories are: Core, Creational, Peripheral and Other. The intent here is to emphasize the important patterns and to separate them from the less frequently used ones.
++ The new members are: Null Object, Type Object, Dependency Injection, and Extension Object/Interface (see "Extension Object" in Pattern Languages of Program Design 3, Addison- Wesley, 1997).
++ These were the categories:
+  - Core: Composite, Strategy, State, Command, Iterator, Proxy, Template Method, Facade
+- Creational: Factory, Prototype, Builder, Dependency Injection
+- Peripheral: Abstract Factory, Visitor, Decorator, Mediator, Type Object, Null Object, Extension Object
+- Other: Flyweight, Interpreter

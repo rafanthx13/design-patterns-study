@@ -10,7 +10,7 @@ https://pt.wikipedia.org/wiki/Visitor_Pattern
 
 ## Meu Resumo
 
-## Wikiepedia
+## Wikipedia
 
 **O que é**
 Representa uma operação a ser realizada sobre elementos da estrutura de um objeto. O Visitor permite que se crie uma nova operação sem que se mude a classe dos elementos sobre as quais ela opera. É uma maneira de separar um algoritmo da estrutura de um objeto. Um resultado prático é a habilidade de adicionar novas funcionalidades a estruturas de um objeto pré-existente sem a necessidade de modificá-las.
@@ -26,7 +26,7 @@ O Visitor é um padrão de projeto comportamental que permite que você separe a
 **Quando usar**
 + Utilize o Visitor quando você precisa fazer uma operação em todos os elementos de uma estrutura de objetos complexa (por exemplo, uma árvore de objetos).
 + Utilize o Visitor para limpar a lógica de negócio de comportamentos auxiliares.
-+  Utilize o padrão quando um comportamento faz sentido apenas dentro de algumas classes de uma uma hierarquia de classe, mas não em outras.
++ Utilize o padrão quando um comportamento faz sentido apenas dentro de algumas classes de uma uma hierarquia de classe, mas não em outras.
 
 
 
